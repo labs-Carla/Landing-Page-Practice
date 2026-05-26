@@ -36,7 +36,14 @@ python -m http.server
 
 Then open `http://localhost:8000` in your browser.
 
-## 🎯 Project goal
+## Demo video
+
+<video width="560" controls>
+  <source src="video.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+
+## Project goal
 
 Practice HTML and CSS layout by building a classic landing page composition and improving the organization of the visual code.
 
