@@ -22,7 +22,6 @@ li{
 }
 
 .container{
-    padding: 0px; 
     margin: 0px;
     max-width: 1200px;
 }
@@ -41,24 +40,38 @@ li{
 
 /* Hero section styles */
 
-.hero-content{
-    background-color: #1F2937;
+.hero{
     padding: 50px;
-    color: white;
-    display: flex; 
+    padding-bottom: 100px;
+    background-color: #1F2937;
+}
+
+.hero-content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
 }
 
 .hero-text{
     flex: 1;
     padding: 20px;
     text-align: left;
+    color: white;
 }
 
 .hero-image{
     flex: 1;
-    padding: 20px;
+    background-color: #E5E7EB;
+    width: 200px;
+    height: 200px;
+}
+
+.hero-image img{
     width: 100%;
-    /*max-width: 400px;*/
+     height: auto;
+     object-fit: cover;
+     overflow: hidden;   
 }
 
 .hero-button{
@@ -69,4 +82,71 @@ li{
     border-color: transparent;
     cursor: pointer;
     margin-top: 2px;
+}
+
+/* Information section style */
+
+.information{
+    padding: 50px;
+    background-color: #ffffff;
+}
+
+.section-title{
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.cards{
+    display: flex;
+    gap: 20px;
+   
+}
+
+.card{
+    display: flex;
+    flex: 1 1 0;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.card-image{
+    width: 200px;
+    height: 200px;
+    border: 2px solid blue;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.card-image img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.card-content{
+    text-align: center;
+}
+
+/*Quotes section styles */
+
+.testimonial{
+    padding: 50px;
+    background-color: #E5E7EB;
+}
+
+.quote{
+    padding: 50px;
+    gap: 20px;
+}
+
+.quote-text{
+    font-style: italic;
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.quote-author{
+    text-align: right;
+    font-weight: bold;
 }
